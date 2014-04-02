@@ -14,7 +14,7 @@ expect {
         exp_continue
   }
   "Do you accept the license '*-license-*'*" {
-        exp_send "n\r"
+        exp_send "y\r"
         exp_continue
   }
   eof
